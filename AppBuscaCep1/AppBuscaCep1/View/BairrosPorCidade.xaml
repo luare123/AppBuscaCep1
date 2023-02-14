@@ -4,7 +4,7 @@
              x:Class="AppBuscaCep1.View.BairrosPorCidade">
   <ContentView.Content>
       <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
+          <Label Text="Hello Xamarin.Forms!p" />
       </StackLayout>
   </ContentView.Content>
 </ContentView>
