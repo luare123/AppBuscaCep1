@@ -10,7 +10,8 @@ namespace AppBuscaCep1
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new View.BairrosPorCidade());
+            MainPage = new NavigationPage(new View.Menu());
+            // Eu salvei Menu na view ent View.Menu
         }
 
         protected override void OnStart()
