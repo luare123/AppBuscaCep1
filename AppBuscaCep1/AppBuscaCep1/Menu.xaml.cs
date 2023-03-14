@@ -21,15 +21,5 @@ namespace AppBuscaCep1
         {
             Navigation.PushAsync(new View.BuscaCepPorLogradouro());
         }
-
-        private void Button_Clicked_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Button_Clicked_2(object sender, EventArgs e)
-        {
-
-        }
     }
 }
