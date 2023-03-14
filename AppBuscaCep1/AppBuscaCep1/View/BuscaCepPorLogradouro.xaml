@@ -7,8 +7,10 @@
             <StackLayout Orientation="Horizontal">
                 <SearchBar x:Name="txt_logradouro"
                     Placeholder="Qual é a sua rua?"/>
-                <Button Text="Buscar" />
+                <Button Text="Buscar" Clicked="Button_Clicked"/>
             </StackLayout>
+
+            <ActivityIndicator x:Name="carregando" Color="Black" IsRunning="False"/>
 
             <ListView x:Name="lst_ceps">
                 <ListView.Header>
@@ -32,7 +34,7 @@
                         <Label Grid.Row="0" Grid.Column="0"
                               Text="{Binding CEP}"/>
                         <Label Grid.Row="0" Grid.Column="1"
-                              Text="{Binding descricao_logradouro}"/>
+                              Text="{Binding descricao}"/>
                         <Label Grid.Row="0" Grid.Column="2"
                               Text="{Binding descricao_cidade}"/>
                         <Label Grid.Row="0" Grid.Column="3"
